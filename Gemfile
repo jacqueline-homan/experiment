@@ -57,7 +57,7 @@ group :development do
   gem 'unicorn'
 end
 
-
+gem 'devise'
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
 
