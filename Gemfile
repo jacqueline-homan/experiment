@@ -8,6 +8,7 @@ gem 'json'
 gem 'hackety_hack-lessons', '~> 1.1.2' 
 
 # Third-party user authentication gems
+gem 'devise'
 gem 'omniauth'
 gem 'omniauth-facebook', '1.4.1'
 gem 'omniauth-github', '~> 1.1.1'
@@ -35,6 +36,7 @@ gem 'coffee-rails', '~> 4.0.0'
 # gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
+# Use haml-rails for simplicity in upgrading original project
 gem 'jquery-rails'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
@@ -57,7 +59,7 @@ group :development do
   gem 'unicorn'
 end
 
-gem 'devise'
+
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
 
